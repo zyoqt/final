@@ -1,0 +1,75 @@
+.outputPage {
+  background-color: black;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+  width: 100%;
+}
+
+.navButtonsRight {
+  display: flex;
+  gap: 10px;
+}
+
+.homeButton, .navButton {
+  background-color: #3de1ad; 
+  color: black; 
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none; 
+}
+
+.homeButton:hover, .navButton:hover {
+  text-decoration: none; 
+  background-color: #35c89b; 
+}
+
+.content {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 1%;
+  margin-top: 25px;
+  width: 100%;
+  max-width: 5000px;
+  height: 700px; 
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.actionButton {
+  background-color: #3de1ad; 
+  color: black; 
+  border: none;
+  padding: 15px 30px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.actionButton:hover {
+  background-color: #35c89b; 
+}

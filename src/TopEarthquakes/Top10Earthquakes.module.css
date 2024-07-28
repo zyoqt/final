@@ -1,0 +1,82 @@
+/* src/TopEarthquakes/TopEarthquakes.css */
+
+.top-earthquakes-page {
+  background-color: black;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-buttons-left, .nav-buttons-right {
+  display: flex;
+  gap: 10px;
+}
+
+.home-button, .nav-button {
+  background-color: #3de1ad; 
+  color: black; 
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none; 
+}
+
+.home-button:hover, .nav-button:hover {
+  text-decoration: none; 
+  background-color: #35c89b; 
+}
+
+.content {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 1%;
+  margin-top: 25px;
+  width: 100%;
+  max-width: 5000px;
+  height: 700px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left; 
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center; 
+}
+
+.table-container {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #ffcc00;
+  color: black;
+}
+
+td {
+  background-color: #ffeb99;
+}
